@@ -1,0 +1,48 @@
+.title {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: red;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.musashi-img {
+  height: 550px;
+  width: 450px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+}
